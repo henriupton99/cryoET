@@ -1,0 +1,11 @@
+id,experiment,particle_type,x,y,z
+0,TS_5_4,beta-amylase,2983.596,3154.13,764.124
+1,TS_5_4,beta-amylase,2983.596,3154.13,764.124
+2,TS_5_4,beta-galactosidase,2983.596,3154.13,764.124
+3,TS_6_4,ribosome,2983.596,3154.13,764.124
+4,TS_6_4,ribosome,2983.596,3154.13,764.124
+5,TS_6_4,ribosome,2983.596,3154.13,764.124
+6,TS_69_2,apo-ferritin,2983.596,3154.13,764.124
+7,TS_69_2,beta-galactosidase,2983.596,3154.13,764.124
+8,TS_69_2,ribosome,2983.596,3154.13,764.124
+9,TS_69_2,virus-like-particle,2983.596,3154.13,764.124
