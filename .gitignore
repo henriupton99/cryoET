@@ -1,7 +1,6 @@
 draft.ipynb
 data/train
 data/test
-data/demo
 
 # Byte-compiled / optimized / DLL files
 .DS_Store
