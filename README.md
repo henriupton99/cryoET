@@ -20,3 +20,5 @@ kaggle competitions download -c czii-cryo-et-object-identification
 or manually on the [Dataset section of the competition](https://www.kaggle.com/competitions/czii-cryo-et-object-identification/data)
 
 The dataset consists of cryoET tomograms, standardized and hosted on the cryoET Data Portal (cryoetdataportal.czscience.com). This data is crucial for training and validating models capable of generalizing across complex protein structures.
+
+![demo_picks_3D](data/demo/figures/Picks.png)

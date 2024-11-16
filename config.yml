@@ -1,3 +1,4 @@
 paths:
   zarr: data/demo/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000
   picks: data/demo/overlay/ExperimentRuns/TS_5_4/Picks
+  figures: data/demo/figures

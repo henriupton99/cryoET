@@ -2,7 +2,7 @@ import os
 import dataclasses
 import pandas as pd
 
-from .helpers import load_json
+from helpers import load_json
 
 @dataclasses.dataclass
 class Particle:

@@ -40,6 +40,17 @@ astroid = ["astroid (>=1,<2)", "astroid (>=2,<4)"]
 test = ["astroid (>=1,<2)", "astroid (>=2,<4)", "pytest"]
 
 [[package]]
+name = "async-timeout"
+version = "5.0.1"
+description = "Timeout context manager for asyncio programs"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "async_timeout-5.0.1-py3-none-any.whl", hash = "sha256:39e3809566ff85354557ec2398b55e096c8364bacac9405a7a1fa429e77fe76c"},
+    {file = "async_timeout-5.0.1.tar.gz", hash = "sha256:d9321a7a3d5a6a5e187e824d2fa0793ce379a202935782d555d6e9d2735677d3"},
+]
+
+[[package]]
 name = "cffi"
 version = "1.17.1"
 description = "Foreign Function Interface for Python calling C code."
@@ -117,6 +128,20 @@ files = [
 
 [package.dependencies]
 pycparser = "*"
+
+[[package]]
+name = "choreographer"
+version = "0.99.6"
+description = "Devtools Protocol implementation for chrome."
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "choreographer-0.99.6-py3-none-any.whl", hash = "sha256:8256485cae76669901bd3ab1ad6de886b9767d26ad4d13d3c030a50fb31a62d0"},
+    {file = "choreographer-0.99.6.tar.gz", hash = "sha256:280d82c961cdb7f8539ae6fb50397a7f72507eb966210c98edac69a564acb34f"},
+]
+
+[package.extras]
+dev = ["async-timeout", "pytest", "pytest-asyncio", "pytest-xdist"]
 
 [[package]]
 name = "colorama"
@@ -532,6 +557,24 @@ traitlets = ">=5.3"
 [package.extras]
 docs = ["myst-parser", "pydata-sphinx-theme", "sphinx-autodoc-typehints", "sphinxcontrib-github-alt", "sphinxcontrib-spelling", "traitlets"]
 test = ["ipykernel", "pre-commit", "pytest (<8)", "pytest-cov", "pytest-timeout"]
+
+[[package]]
+name = "kaleido"
+version = "0.4.1"
+description = "Plotly graph export library"
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "kaleido-0.4.1-py3-none-any.whl", hash = "sha256:be3470a98793ce7ec16fd99067c250d158ab7294fefba7e7c6bd0c5d6107edcf"},
+    {file = "kaleido-0.4.1.tar.gz", hash = "sha256:d13194cda4b2bcd9bd47deb2c4e79679d85f9791c1edb91686ccce1a01d84a24"},
+]
+
+[package.dependencies]
+async-timeout = "*"
+choreographer = ">=0.99.6"
+
+[package.extras]
+dev = ["pytest"]
 
 [[package]]
 name = "kiwisolver"
@@ -1622,4 +1665,4 @@ jupyter = ["ipytree (>=0.2.2)", "ipywidgets (>=8.0.0)", "notebook"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "1de73512cf35cf0e27c2b90eda5d5de84b67d72426e4978fe8b320b267c7a395"
+content-hash = "84c48c00aae5c5761b202de58aeee32fcb7eef72a7151c44dc92ec0bc948e20b"
